@@ -1,0 +1,202 @@
+.red-light {
+  color : #E0A8A8;
+}
+
+.ht {
+  font-family: noto;
+  color : white;
+  margin: 0;
+  border-bottom : 1px dashed;
+  display: inline-block;
+}
+
+body {
+  background-color: #f4f4f4;
+  margin : auto;
+}
+
+@font-face {
+  font-family: noto;
+  src: url(NotoSans-Regular.ttf);
+};
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  font-family: noto;
+  background-color: #eb6e6e;
+  color : rgba(255,255,255,0.75);
+  text-align: center;
+  padding : 2rem;
+}
+
+.header{
+  text-align: center;
+  background-color: #555;
+  color: #E0A8A8;
+  width: 100%;
+  margin: auto;
+  padding-top : 2rem;
+  padding-bottom : 2rem;
+}
+.sub-header {
+  text-align: center;
+  background-color: #555;
+  padding-top : 1rem;
+  padding-bottom : 1rem;
+  border-bottom : solid #eb6e6e 3px;
+}
+.title {
+  font-size: 6rem;
+  color: #A2A2A2;
+  font-family: Noto;
+  display: inline-block;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color : #ccc;
+  border-radius: 100px;
+  padding: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: noto;
+  display: inline-block;
+}
+
+.sub-title > p {
+  display: inline-block;
+  margin: 0;
+  color : #FFCCCC;
+}
+
+.label {
+  text-align: center;
+  display: block;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  color: white;
+  border : solid #eb6e6e 2px;
+  background-color: #eb6e6e;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: noto;
+  width: 20%;
+  min-width : 100px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.label:hover {
+  background-color: #eb6e6e;
+  color : white;
+  cursor : pointer;
+}
+
+#container {
+
+  max-width: 1280px;
+  margin-left: 5%;
+  margin:auto;
+  margin-bottom: 2rem;
+}
+
+.group-text {
+  color : #CCC;
+  margin : 1rem;
+  font-family: noto;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.glp {
+  display: inline-block;
+  background-color: #ECECEC;
+  padding : .25rem;
+  margin : .25rem;
+  color : #eb6e6e;
+  width: 120px;
+}
+.glp:hover {
+  background-color: #DDD;
+}
+
+.glp-header {
+  color : #FFACAC;
+  display: block;
+  font-family: noto;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.glp-text {
+  color : #999;
+  display: inline-block;
+  margin-left : .5rem;
+  font-family: Noto;
+}
+
+.usage {
+  font-family: Noto;
+  color : #888;
+  padding : 1rem;
+}
+
+.progress {
+  color : #eb6e6e;
+}
+
+.diy-output {
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+}
+
+.diy-input {
+  position: relative;
+  padding: .5rem;
+  padding-left : 2rem;
+  padding-right : 2rem;
+  display: inline-block;
+  border : 2px solid #eb6e6e;
+  border-radius: .5rem;
+  border-top-left-radius: 0;
+  text-align: left;
+  max-width: 70%;
+}
+
+.diy-title {
+  position: absolute;
+  left: -1px;
+  color : #FFF;
+  background-color: #eb6e6e;
+  padding : .25rem;
+  top: -2.95rem;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.input-syn1 {
+  color : #eb6e6e;
+  margin: 0;
+  display: inline-block;
+}
+
+.input-syn2 {
+  color : #CCC;
+  display: inline-block;
+}
+
+.diy-input > input {
+  border : none;
+  background : none;
+  border-bottom : 2px solid #eb6e6e;
+  padding : .25rem;
+  text-align: center;
+  width: 80px;
+  display: inline-block;
+}
