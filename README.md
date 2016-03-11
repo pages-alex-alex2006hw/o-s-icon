@@ -2,7 +2,7 @@
 
 O's is an icon font which helps you make arcs, circles, pies easier without tricky CSS.
 
-[Checkout DEMO and icon list](http://wkh237.github.io/o-s-icon/)
+[See DEMO and icon list](http://wkh237.github.io/o-s-icon/)
 
 ## Usage
 
